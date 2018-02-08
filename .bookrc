@@ -5,6 +5,7 @@
     "JS": "js",
     "HEAD": "html"
   },
-  "name": "the-javascript-professional",
-  "type": "blank"
+  "name": "The JavaScript Professional",
+  "type": "blank",
+  "book_id": 253
 }
