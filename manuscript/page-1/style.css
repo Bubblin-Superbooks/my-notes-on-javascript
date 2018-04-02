@@ -97,8 +97,7 @@ body {
 				width: 40vw;
 				height: 4vw;
 				z-index: 10000;
-				background-color: rgba(215, 183, 72, 0.8);
-				background-color: rgba(255, 258, 85, 0.6);
+				background-color: rgba(255, 255, 185, 0.7);
 				border-radius: 30% / 50%;
 				-webkit-animation: spin 6s linear infinite;
 				animation: spin 6s linear infinite;

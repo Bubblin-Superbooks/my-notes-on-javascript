@@ -197,7 +197,7 @@
         gulp.start('indexPage')
       }
 
-      let delay = 1000
+      let delay = 2000
 
       delayed.delay(() => {
         const stats = fs.statSync(pagePath)
