@@ -1,11 +1,11 @@
 {
   "mode": {
-    "HTML": "html",
+    "HTML": "pug",
     "CSS": "css",
     "JS": "js",
-    "HEAD": "html"
+    "HEAD": "pug"
   },
-  "name": "The JavaScript Professional",
+  "name": "My notes on JavaScript",
   "type": "blank",
   "book_id": 253
 }

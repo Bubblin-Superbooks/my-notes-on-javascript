@@ -21,6 +21,7 @@
   const sass = r('gulp-sass')
   const less = r('gulp-less')
   const stylus = r('gulp-stylus')
+  const pug = r('gulp-pug')
   // const postcss = r('gulp-postcss')
 
   // *************************************//
@@ -53,6 +54,7 @@
     .pipe(gulpif(/[.]scss|sass$/, sass()))
     .pipe(gulpif(/[.]less$/, less()))
     .pipe(gulpif(/[.]styl$/, stylus()))
+    .pipe(gulpif(/[.]pug$/, pug()))
     .pipe(gulp.dest(path.join('build', 'manuscript')))
   )
 
@@ -63,6 +65,7 @@
     .pipe(gulpif(/[.]scss|sass$/, sass()))
     .pipe(gulpif(/[.]less$/, less()))
     .pipe(gulpif(/[.]styl$/, stylus()))
+    .pipe(gulpif(/[.]pug$/, pug()))
     .pipe(gulp.dest(path.join('build', 'templates')))
   )
 
@@ -146,7 +149,7 @@
 
   // Glob pattern matching
   const glob = [path.join('manuscript', '*'),
-    path.join('manuscript', '*', '*.+(js|css|html|markdown|md|haml|less|styl|scss|sass)')
+    path.join('manuscript', '*', '*.+(js|css|html|markdown|md|haml|pug|less|styl|scss|sass)')
   ]
 
   // *************************************//
