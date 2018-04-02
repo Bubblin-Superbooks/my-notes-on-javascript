@@ -78,12 +78,112 @@ a:active {
     text-align: justify;
 }
 
-
-/* Your custom styles below */
-
 .center {
     text-align: center;
 }
 
 
 /* Your custom styles below */
+.subhead {
+  font-size: 60%; }
+
+.head {
+  font-family: 'Lato', serif; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.tape {
+  height: 5vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: #119747;
+  font-size: 2.5vw; }
+
+.tape div.chaptername {
+  width: 80vw;
+  padding: 0 2vw; }
+
+.tape div.chapter {
+  width: 20vw;
+  height: 5vh;
+  background: gray;
+  color: white; }
+
+.right {
+  text-align: right;
+  float: right; }
+
+.monospace, .highlight {
+  font-family: monospace;
+  font-size: 2.5vw;
+  background: #ff0;
+  border: 1px solid #ff0;
+  color: #444;
+  padding: .2vw 1vw;
+  border-radius: .5vw;
+  margin: 0 .5vw; }
+
+pre, code {
+  overflow-x: auto;
+  font-size: 80%;
+  color: #cf2026;
+  padding: 0; }
+
+.code-block {
+  margin: 2vw 0;
+  width: 80vw;
+  background: #fff;
+  border: 1px solid #cf2026;
+  padding: 0 2.5vw;
+  border-radius: 1vw; }
+
+.terminal {
+  background-color: black;
+  color: #55ff55;
+  margin: 3vw 0;
+  width: 75vw;
+  border: 1px solid #ccc;
+  padding: 2vw 5vw;
+  border-radius: 1vw;
+  font-family: monospace;
+  font-size: 75%;
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: left; }
+
+.prompt {
+  background: #55ff55;
+  height: 1em;
+  width: 0.75em;
+  -webkit-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite; }
+
+@-webkit-keyframes blink {
+  0% {
+    background: #55ff55; }
+  49% {
+    background: #55ff55; }
+  50% {
+    background: transparent; }
+  100% {
+    background: transparent; } }
+
+@keyframes blink {
+  0% {
+    background: #55ff55; }
+  49% {
+    background: #55ff55; }
+  50% {
+    background: transparent; }
+  100% {
+    background: transparent; } }
+
+.notice {
+  font-size: 80%;
+  background: #ffc;
+  width: 80vw;
+  padding: 0.5vh 2.5vw; }
